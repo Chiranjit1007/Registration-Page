@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>registration form</title>
+		<style type="text/css">
+			body{
+				background-image: url("registration page.jpeg");
+				background-size: 1550px 1200px; 
+			}
+			.form{
+					margin-left: 440px;
+					
+					}
+			.gender{
+					margin-left: 220px;
+					}
+			.nationality{
+					margin-left: 275px;
+					}
+			.phone{
+					margin-left: 265px;
+					}
+			.mnumber{
+					margin-left: 185px;
+					}
+			.year{
+					margin-left: 262px;
+					}
+			.post{
+					margin-left: 290px;
+					}
+			.pin{
+					margin-left: 260px;
+					}
+			.conpass{
+					margin-left: 220px;
+					}
+			.sign{
+					margin-left: 120px;
+					}
+			.hsmark{
+					margin-left: 155px;
+					}
+			.rank{
+					margin-left: 135px;
+					}
+			.submit{
+					background-color: green;
+					color: white;
+					}
+			.reset{
+					margin-left: 0px;
+					background-color: red;
+					color: white;
+					}
+					
+		</style>
+	</head>
+	<body> 
+		<center><h1><u>Student Registration form</u></h1></center>
+		<form class="form">
+			
+			<div>
+				<label><b>Name:</b></label>
+				<br>
+					<input type="text" placeholder="First" style=width:200px;height:30px; required> 
+					<input type="text" placeholder="Middle" style=width:200px;height:30px;>
+					<input type="text" placeholder="Last" style=width:195px;height:30px; required>
+			</div>
+				<br>
+			<div>
+				<label><b>Date Of Birth:</b></label> <label class="gender"><b>Gender:</b></label>
+				<br>
+					<input  type="date" style=width:305px;height:30px; required>  &nbsp Male:<input type="radio" name="my gender">   Female:<input type="radio" name="my gender">   Others:<input type="radio" name="my gender" required>
+			</div>
+				<br>
+			<div>
+				<label><b>State:</b></label> <label class="nationality"><b>Nationality:</b></label>
+				<br>
+					<input type="text" placeholder="Enter Your State" style=width:305px;height:30px; required> <input type="text" placeholder="Enter Your Country" style=width:305px;height:30px; required> 
+			</div>
+				<br>
+			<div>
+				<label><b>E-Mail:</b></label>  <label class="phone"><b>Phone No:</b></label>
+				<br>
+					<input type="email" placeholder="Enter Your E-Mail" style=width:305px;height:30px; required="@gmail.com"> <input type="tel" placeholder="Enter Your Phone No."style=width:305px;height:30px; required>
+			</div>
+				<br>
+			<div>
+				<label><b>Father's name:</b></label>
+				<br>
+					<input type="text" placeholder="First" style=width:200px;height:30px; required> <input type="text" placeholder="Middle" style=width:200px;height:30px; >
+					 <input type="text" placeholder="Last" style=width:200px;height:30px; required>
+			</div>
+				<br>
+			<div>
+				<label><b>Mother's name:</b></label>
+				<br>
+					<input type="text" placeholder="First" style=width:200px;height:30px; required> 
+					<input type="text" placeholder="Middle" style=width:200px;height:30px; >
+					<input type="text" placeholder="Last" style=width:200px;height:30px; required>
+			</div>
+				<br>
+			<div>
+				<label><b>Father's Phone No:</b></label> <label class="mnumber"><b>Mother's Phone No:</b></label>
+				<br>
+					<input type="tel" placeholder="Enter Your Father's phone No." style=width:305px;height:30px; required> <input type="tel" placeholder="Enter Your mother's Phone No." style=width:305px;height:30px; required>
+			</div>
+				<br>
+			<div>
+				<label><b>Course:</b></label> <label class="year"><b>Academic Year:</b></label>
+				<br>
+					<select style=width:310px;height:35px; required>
+					<option value="Bca">BCA</option>
+					<option value="Bhm">BHM</option>
+					<option value="Bba">BBA</option>
+					</select> 
+					<input type="tel" placeholder="Academic year"style=width:310px;height:30px; required>
+			</div>
+			<div>
+				<h3><label><b>Address:-</b></label></h3>
+				<label><b>Vill:</b></label> <label class="post"><b>Post:</b></label>
+				<br>
+					<input type="text" placeholder="Enter Village"style=width:305px;height:30px; required> <input type="text" placeholder="Enter Post"style=width:305px;height:30px; required>
+				<br>
+				<label><b>District:</b></label> <label class="pin"><b>Pin:</b></label>
+				<br>
+					<input type="text" placeholder="Enter District" style=width:305px;height:30px; required> <input type="tel" placeholder="Enter Pin No."style=width:305px;height:30px; required>
+			</div>
+			<br>
+			<div>
+				<label><b>Set Password:</b></label> <label class="conpass"><b>Confirm Password:</b></label><br>
+				<input type="Password" placeholder="Set a Password" style=width:305px;height:30px; required> <input type="Password" placeholder="Confirm Password"style=width:305px;height:30px; required>
+			</div>
+				<br>
+			<div>
+				<label for ><b>1.<u>Photo of Student</u>(jpg/jpeg):</b></label> <label class="sign"><b>2.<u>Signature of Student</u>(jpg/jpeg):</b></label>
+				<br>
+					<input type="file" required>
+					<label style="margin-left:75px;"><input type="file" required></label>
+			</div>
+				<br>
+			<div>
+				<label><b>3.<u>M.P Admit</u>(only pdf):</b></label> <label class="hsmark"><b>4.<u>H.S. Marksheet</u>(Only pdf):</b></label>
+				<br>
+					<input type="file" required>
+					<label style="margin-left: 75px;"><input type="file" required></label>
+			</div>
+				<br>
+			<div>
+				<label><b>5.<u>Aadhar card</u>(Only pdf):</b></label> <label class="rank"><b>6.<u>Rank card</u>(Only pdf):</b></label>
+				<br>
+					<input type="file" required>
+					<label style="margin-left: 75px;"><input type="file" required></label>
+			</div>
+				<br>
+			<div>
+				<input type="checkbox" required><b>Are You Sure to Submit the registration form ?</b>
+			</div>
+				<br>
+			<div>
+				<input class="reset"type="Reset"	style=width:155px;height:35px;>
+				<input class="submit" type="submit"	style=width:155px;height:35px;>
+			</div>
+		</form>	
+	</body>
+</html>
